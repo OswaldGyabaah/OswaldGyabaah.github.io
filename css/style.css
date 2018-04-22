@@ -985,3 +985,10 @@ font-size: 16px;
 font-size: 30px;
 font-weight: bolder;
 }
+@media (max-width: 768px){
+  .notice{
+    font-size: 15px;
+    padding: 2%;
+
+  }
+}
