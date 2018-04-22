@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.71);
   display: table-cell;
   margin: 0;
   padding: 0px 1px;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
+  text-transform:projectsse;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -481,7 +481,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #fafafa;
   padding: 5% 0;
 }
 
@@ -493,7 +493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px){
   #about .about-container .background{
-    
+
     /*background: url(../img/about-img-sm.png);*/
     background-repeat: no-repeat;
     background-position: center;
@@ -585,15 +585,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Services Section
+/* projects Section
 --------------------------------*/
-#services {
+#projects {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#projects .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -603,53 +603,54 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#projects .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
   display: inline-block;
-  border: 6px solid #fff;
+  border: 1px solid #fff;
 }
 
-#services .icon a {
+#projects .icon a {
   display: inline-block;
   background: #2dc997;
   border: 2px solid #2dc997;
-  padding: 16px;
+  padding: 1px;
   border-radius: 50%;
   transition: 0.3s;
 }
 
-#services .icon i {
+#projects .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon i {
+#projects .box:hover .icon i {
   color: #2dc997;
 }
 
-#services .box:hover .icon a {
+#projects .box:hover .icon a {
   color: #2dc997;
   background: #fff;
 }
 
-#services .title {
+#projects .title {
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
-#services .title a {
+#projects .title a {
   color: #111;
 }
 
-#services .description {
+#projects .description {
   font-size: 14px;
   line-height: 24px;
+  padding-bottom: 30px;
 }
 
 /* Call To Action Section
@@ -972,7 +973,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
-.compName{ 
+.compName{
   color: white;
 }
 
@@ -980,7 +981,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 font-size: 16px;
 }
 .notice{
-  color: cyan;
-font-size: 24px;
-font-style: bold;
+  color: yellow;
+font-size: 30px;
+font-weight: bolder;
 }

@@ -15,6 +15,9 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+  // bliking the notice on the homepage
+  $('.notice').fadeIn(500).fadeOut(550).fadeIn(500).fadeOut(550).fadeIn(500).fadeOut(550).fadeIn(500).fadeOut(550).fadeIn(500).delay(5000).fadeOut(1000);
+
   // Initiate the wowjs
   new WOW().init();
 
