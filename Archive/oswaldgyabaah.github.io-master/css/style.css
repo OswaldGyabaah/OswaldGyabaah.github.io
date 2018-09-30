@@ -589,7 +589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #projects {
   background: #fff;
-  background-size: ;
+  background-size: cover;
   padding: 80px 0 60px 0;
 }
 
@@ -651,11 +651,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   padding-bottom: 30px;
-}
-
-#projects{
-text-align: justify;
-line-height: 5px;
 }
 
 /* Call To Action Section
